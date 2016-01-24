@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+<head>
+    <meta charset="utf-8">
+    <title>Modelador Web Rhinosystem</title>
+    <meta name="viewport" content="initial-scale = 1.0, maximum-scale = 1.0, user-scalable = no, width = device-width">
+
+    
+    <link rel="stylesheet" href="css/style.css" media="screen">
+    <link rel="stylesheet" href="css/style.responsive.css" media="all">
+
+
+    <script src="js/jquery.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/script.responsive.js"></script>
+	
+	<script src="js2/jquery.min.js"></script>
+    <script src="js2/lodash.min.js"></script>
+    <script src="js2/backbone-min.js"></script>
+    <script src="js2/joint.min.js"></script>
+    
+    <link rel="stylesheet" href="css2/joint.min.css">
+
+
+	<!-- <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script> -->
+	<script src="js/jQueryLector.js"></script>
+
+
+<style>.art-content .art-postcontent-0 .layout-item-0 { padding-right: 10px;padding-left: 10px;  }
+.ie7 .art-post .art-layout-cell {border:none !important; padding:0 !important; }
+.ie6 .art-post .art-layout-cell {border:none !important; padding:0 !important; }
+</style>
+
+</head>
+<body>
+<div id="art-main">
+    <div id="art-header-bg">
+            </div>
+    <div id="art-hmenu-bg" class="art-bar art-nav">
+    </div>
+    <div class="art-sheet clearfix">
+<header class="art-header">
+
+    <div class="art-shapes">
+        
+            </div>
+
+<h1 class="art-headline">
+    <a href="/">Modelador Web</a>
+</h1>
+
+
+
+
+<div class="art-textblock art-object227400126">
+    <form class="art-search" name="Search" action="javascript:void(0)">
+    <input type="text" value="">
+    <input type="submit" value="Search" name="search" class="art-search-button">
+</form>
+</div>
+<nav class="art-nav">
+		<div class="art-nav-inner">
+			<ul class="art-hmenu">
+				<li><a href="modelador.html" class="active">Modelador </a></li>
+				<li><a href="modelos.html">Mis modelos</a></li>
+				<li><a >Menu</a>
+					<ul class="active">
+						<li><a href="perfil.html">Perfil</a></li>
+						<li><a href="index.html">Cerrar sesión</a></li>
+						<!-- <li><a href="home/new-page-3.html">Subpage 3</a></li> -->
+					</ul>
+				</li>
+				
+			</ul> 
+		</div>
+</nav>
+
+                    
+</header>
+<div class="art-layout-wrapper" id="paneldediseno">
+                <div class="art-content-layout">
+                    <div class="art-content-layout-row">
+                        <div class="art-layout-cell art-sidebar1"><div class="art-vmenublock clearfix">
+        <div class="art-vmenublockheader">
+            <h3 class="t">Tools</h3>
+        </div>
+        <div class="art-vmenublockcontent">
+			<!-- <ul class="art-vmenu">
+				<li><a href="home.html" class="active">Home</a>
+					<ul class="active">
+						<li><a href="home/new-page.html">Subpage 1</a></li>
+						<li><a href="home/new-page-2.html">Subpage 2</a></li>
+						<li><a href="home/new-page-3.html">Subpage 3</a></li>
+					</ul>
+				</li>
+				<li><a href="blog.html">Blog</a></li>
+			</ul> -->
+			<div id="divSvg" text-align="center">
+			</div>
+                
+        </div>
+</div></div>
+                        <div class="art-layout-cell art-content" >
+							<div class="art-postmetadataheader">
+                                        <!-- <h2 class="art-postheader">Panel</h2> -->
+										<div class="art-postheadericons art-metadata-icons">
+											<span class="art-postdateicon"></span>
+											 | <span class="art-postauthoricon"> <a href="#" title="Posts by Admin">Admin</a></span>
+											 | <span class="art-postpdficon"></span>
+											 | <span class="art-postprinticon"></span>
+											 | <span class="art-postemailicon"></span>
+											 | <span class="art-postediticon"></span>
+										</div>
+                                                            
+                                </div>
+							
+							<article class="art-post art-article">
+                                
+                                <div class="art-postcontent art-postcontent-0 clearfix">
+								
+									<div class="art-content-layout">
+										<div class="art-content-layout-row">
+										<div id="paper" class="art-layout-cell layout-item-0" style="width: 100%; " >
+											
+										</div>
+										</div>
+									</div>
+								
+								</div>
+							</article>
+						</div>
+                        <div class="art-layout-cell art-sidebar2"><div class="art-block clearfix">
+        <div class="art-blockheader">
+            <h3 class="t">Editar</h3>
+        </div>
+        <div class="art-blockcontent"><div>
+		<input id="titulotable" type="text" placeholder="Titulo de tabla" class="search" onkeydown="search(this)"/> 
+  <form action="#" class="art-search" method="get" name="searchform">
+    <!-- <input type="text" value="" name="s" /> -->
+    <!-- <input type="submit" value="Search" name="search" class="art-search-button" /> -->
+	
+	 
+	
+
+  </form>
+</div></div>
+</div></div>
+                    </div>
+                </div>
+            </div>
+    </div>
+<footer class="art-footer">
+  <div class="art-footer-inner">
+<p><a href="#">Link1</a> | <a href="#">Link2</a> | <a href="#">Link3</a></p>
+<p>Copyright © 2015. Ronny Morán.</p>
+    <p class="art-page-footer">
+        <!-- <span id="art-footnote-links"><a href="rhinosystem.com.ec" target="_blank">Rhinosystem</a></span> -->
+    </p>
+  </div>
+</footer>
+
+</div>
+
+<script type="text/javascript">       
+
+
+		
+	var anchoxD = (document.getElementById("paper").clientWidth);	
+	var altoxD = (document.getElementById("paneldediseno").clientHeight);
+
+	//console.log(window.getComputedStyle(x, null)["width"]);
+
+		
+	var graph = new joint.dia.Graph();
+	
+    var paper = new joint.dia.Paper({
+        el: $('#paper'),
+        width: anchoxD - 20,
+        height: (screen.height)-360,
+        gridSize: 1,
+        model: graph
+    });
+
+	var classes;
+	var pageNumber = 1;
+	window["text" + pageNumber];
+	
+	var dict = [];
+
+	var uml = joint.shapes.uml;
+	
+	function agregatabla(){
+	
+
+	
+	
+    
+	
+    window["text" + pageNumber] = {	
+	
+		    tabla: new uml.Class({
+            position: { x:26  , y: 50 },
+            size: { width: 160, height: 100 },
+            name: 'Tabla título',
+            attributes: ['column1: Integer','column2: String','column3: String','column4: String'],						
+            methods: [],
+			
+            attrs: {
+                '.uml-class-name-rect': {
+                    fill: '#ff8450',
+                    stroke: '#fff',
+                    'stroke-width': 0.5
+                },
+                '.uml-class-attrs-rect, .uml-class-methods-rect': {
+                    fill: '#fe976a',
+                    stroke: '#fff',
+                    'stroke-width': 0.5,
+                },
+                '.uml-class-attrs-text': {
+                    'ref-y': 0.5,
+                    'y-alignment': 'middle'
+                }
+            },
+			
+        })
+		
+		};
+		
+		
+		//rect.set("position",{x:0,y:0},1);
+		var at = (window["text" + pageNumber]).tabla.attr('.uml-class-attrs-text/text');		
+		
+
+		
+		
+		//alert((window["text" + pageNumber]).tabla.get("attributes"));
+
+
+
+		//for (var i=0; i<at.length;i++){		
+			//classes.tabla.set('attributes',''+at[i]);
+		//}
+		
+		//classes.tabla.set('attributes',''+at);
+		//alert(classes.tabla.('attributes'));
+		//alert(classes.tabla.attr('.uml-class-attrs-text/text'));
+		//classes.mammal.get('name'); // get the class name
+		//classes.mammal.set('name', 'my new name'); // set the class name
+		
+		_.each((window["text" + pageNumber]), function(c) { graph.addCell(c); });
+		
+		
+		//getid
+		//alert((window["text" + pageNumber]).tabla.id);
+		
+		
+		 // create an empty array
+		
+		dict.push({
+			key:   ""+pageNumber,
+			value: ""+(window["text" + pageNumber]).tabla.id
+		});
+		for (var i = 0; i<dict.length; i++){
+		//alert(dict[i].key);
+		//alert(dict[i].value);
+		}
+		pageNumber++;
+
+
+	}
+	
+	
+	function unomuchos(){
+			var relations = [	     
+					new uml.Generalization({ source: { x: 10, y: 20 }, target: { x: 200, y: 20 }})
+				];	
+				_.each(relations, function(r) { graph.addCell(r); });
+	}
+	function unouno(){
+			var relations = [	     
+					//new uml.Aggregation({ source: { id: (window["text" + 1]).tabla.id }, target: { id: (window["text" + 2]).tabla.id }})
+					new uml.Aggregation({ source: { x: 10, y: 40  }, target: { x: 200, y: 40  }})
+				];		
+				_.each(relations, function(r) { graph.addCell(r); });
+	}
+
+	
+	
+
+	function search(ele) {
+			if(event.keyCode == 13) {
+				
+				(window["text" + tablaselec]).tabla.set('name', ''+ele.value);        
+			}
+		}
+	
+
+		var countries = document.getElementById('v-2').childNodes;
+        var i;
+        for (i=0;i<countries.length;i++){
+            countries[i].addEventListener('click', setvaluetable);
+        }
+    
+	
+	var tablaselec;
+	
+	
+	var numerotabla=1;
+	
+    function setvaluetable(e) {
+        var node = e.target.parentNode;
+		tablaselec = document.getElementById(node.id).getAttribute("value");
+		var clase = document.getElementById(node.id).getAttribute("class"); 
+		//alert(clase);
+		if(tablaselec==null){
+			document.getElementById(node.id).setAttribute("value", numerotabla); 
+								
+			
+				if(clase=="scalable"){
+					numerotabla++;
+				}
+		}		
+		if(tablaselec!=null){
+		var tittabla = (window["text" + tablaselec]).tabla.get('name');			
+		
+			document.getElementById("titulotable").value =tittabla ;
+		}
+		//alert("nodo: "+node.id+" value:"+tablaselec);	
+		
+    }
+
+	//$("g").click(function() {
+	  //alert($(this).attr("id"));        
+	//});		
+	
+</script>
+
+
+
+</body>
+</html>
