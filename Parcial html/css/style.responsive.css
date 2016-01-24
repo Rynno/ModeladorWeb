@@ -1,3 +1,4 @@
+/* Created by Artisteer v4.3.0.60745 */
 
 .responsive body
 {
@@ -301,15 +302,14 @@
 .responsive nav.art-nav
 {
    min-width: 1%;
-   margin-top: 1%;
 }
 
 .responsive .art-nav 
 {
    padding-left: 0;
    padding-right: 0;
-   padding-top: 1px;
-   padding-bottom: 1px;
+   padding-top: 3px;
+   padding-bottom: 3px;
    margin-top: 20px;
 }
  
@@ -445,13 +445,24 @@
 
 .responsive .art-nav ul.art-hmenu>li>a
 {
+   border-bottom: 1px solid transparent;
    padding-bottom: 0 !important;
    margin-bottom: 0 !important;
 }
 
 .responsive .art-nav .art-hmenu>li>a
 {
-   border-radius: 6px;
+   border-radius: 2px;
+}
+
+.responsive .art-nav ul.art-hmenu>li>a.active
+{
+   border-bottom: 1px solid #B6BFC9;
+}
+
+.responsive .art-nav ul.art-hmenu>li>a:hover
+{
+   border-bottom: 1px solid #001C43;
 }
 
 .responsive .art-nav ul.art-hmenu>li>ul>li:first-child:after 
@@ -481,7 +492,7 @@
   
 .responsive .art-nav ul.art-hmenu>li>ul
 {
-   padding: 2px;
+   padding: 10px;
 }
   
 .responsive .art-nav ul.art-hmenu>li>ul:before
@@ -548,10 +559,5 @@
    width: auto;
    padding: 2% !important;
    min-width: 0;
-}
-
-.responsive .art-footer
-{
-   margin-top: 1%;
 }
 
